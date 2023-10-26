@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="810.0" prefWidth="1200.0" style="-fx-background-color: #383838;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contrlloer.Index">
+   <children>
+      <VBox layoutX="1010.0" prefHeight="803.0" prefWidth="148.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label  alignment="CENTER" contentDisplay="CENTER" prefHeight="127.0" prefWidth="148.0" text="KeJu" textFill="WHITE" translateY="-10.0">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bodoni MT" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="stater" mnemonicParsing="false"  onAction="#OnStater" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: #ffffff;" text="开始" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="counter" mnemonicParsing="false" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: #ffffff;" text="继续">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="config" mnemonicParsing="false" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: #ffffff;" text="设置">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="button" mnemonicParsing="false" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: #ffffff;" text="Button">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" onAction="#onExit" mnemonicParsing="false" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: #ffffff;" text="退出">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="100.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
