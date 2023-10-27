@@ -17,32 +17,32 @@
       </HBox>
       <VBox layoutX="1001.0" prefHeight="810.0" prefWidth="148.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="next" mnemonicParsing="false" onAction="#onNext" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="金銮殿">
+            <Button mnemonicParsing="false" onAction="#onNext" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="金銮殿">
                <VBox.margin>
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="next1" mnemonicParsing="false"  prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="金銮殿">
+            <Button mnemonicParsing="false" onAction="#taihe" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="太和殿">
                <VBox.margin>
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="next2" mnemonicParsing="false"  prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="养心殿">
+            <Button  mnemonicParsing="false" onAction="#yangxin" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="养心殿">
                <VBox.margin>
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="next3" mnemonicParsing="false"  prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="后宫">
+            <Button mnemonicParsing="false" onAction="#hou" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="后宫">
                <VBox.margin>
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="next4" mnemonicParsing="false"  prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="其他殿宇">
+            <Button  mnemonicParsing="false" onAction="#other" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="其他殿宇">
                <VBox.margin>
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="next5" mnemonicParsing="false"  prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="外出紫禁城" />
+            <Button mnemonicParsing="false" onAction="#bing" prefHeight="49.0" prefWidth="148.0" style="-fx-background-color: white;" text="前往军营" />
          </children>
          <padding>
             <Insets top="200.0" />

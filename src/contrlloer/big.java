@@ -20,8 +20,6 @@ public class big {
     @FXML
     private Button xing;
 
-    @FXML
-    private Button back;
 
     @FXML
     private VBox hubo;
@@ -30,7 +28,7 @@ public class big {
         hubo.setStyle("visibility: visible");
     }
     public void backs(){
-        MyStage.myStage.setScene(new MyScene().getScene("/fxml/tow.fxml"));
+        MyStage.myStage.setScene(fxml.towfxml);
     }
 
 }
