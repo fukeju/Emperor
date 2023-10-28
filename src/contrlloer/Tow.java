@@ -1,11 +1,9 @@
 package contrlloer;
 
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import pojo.Empire;
 import scene.MyScene;
@@ -26,6 +24,7 @@ public class Tow implements Initializable {
     public void nextDay() {
         Empire.getEmpire().setRounds(Empire.getEmpire().getRounds() + 1);
         Empire.getEmpire().setDay(Empire.getEmpire().getRounds() / 8);
+
     }
 
     static MyStage stateStage;
@@ -62,7 +61,6 @@ public class Tow implements Initializable {
 
     public void hou() {         //后宫
         MyStage.myStage.setScene(fxml.hougong);
-
     }
 
     public void other() {        //其它殿宇

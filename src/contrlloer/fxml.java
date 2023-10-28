@@ -9,4 +9,5 @@ public class fxml {
     public static Scene taihe = new MyScene().getScene("/fxml/taihe.fxml");
     public static Scene yangxin = new MyScene().getScene("/fxml/yangxin.fxml");
     public static Scene hougong = new MyScene().getScene("/fxml/hougong.fxml");
+    public static Scene selectFeiZi = new MyScene().getScene("/fxml/selectFeiZi.fxml");
 }
